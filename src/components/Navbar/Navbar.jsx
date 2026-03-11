@@ -8,7 +8,6 @@ const navbar = () => {
   const [showMenu, stShow] = useState(false);
 
     const toggleMenu = () =>{
-
       setShowMenu( !showMenu)
     }
   return (
