@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect} from 'react'
 import { GoHeartFill } from "react-icons/go";
 import { HiShoppingBag } from "react-icons/hi2";
 import { IoSearch } from "react-icons/io5";
@@ -8,14 +8,26 @@ import { TbMenu3 } from "react-icons/tb";
 const navbar = () => {
 
   const [showMenu, setShowMenu] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
 
     setShowMenu(!showMenu);
 
   }
+
+  useEffect(()=>{
+
+    const handleScroll = ()=>{
+
+      setIsScrolled(window.scrollY > 10)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <header className='bg-white fixed top-0 right-0 left-0 z-50'>
+   <header className={`bg-white fixed top-0 right-0 left-0 z-50 ${isScrolled ? 'shadow-lg' : ""}`}>
       <nav className='max-w-[1400px] mx-auto px-10 md:h-[14vh] h-[12vh] flex justify-between items-center'>
         {/* logo part starts here */}
         <a href="#" className='text-3xl font-bold'>
@@ -24,7 +36,7 @@ const navbar = () => {
         {/* logo part End here */}
 
         {/* Menu part start here */}
-        <ul className='md:flex iteam-center gap-x-15 hidden'>
+       <ul className='md:flex items-center gap-x-15 hidden'>
           <li>
             <a href="#" className='font-semibold tracking-wider text-orange-500'>Home</a>
           </li>
@@ -87,7 +99,7 @@ const navbar = () => {
       </nav>
     </header>
 
-  ) 
+  )
 }
 
 export default navbar
