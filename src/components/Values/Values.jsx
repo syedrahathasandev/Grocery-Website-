@@ -5,6 +5,7 @@ import Basket from '../../assets/basket-full-vegetables.png'
 
 const Values = () => {
   return (
+    
     <section>
       <div className='max-w-[1400px] mx-auto px-10 py-20'>
         <Heading highlight="Our" heading="Value" />
