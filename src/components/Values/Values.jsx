@@ -4,14 +4,28 @@ import { FaHeart, FaLeaf, FaShieldAlt, FaSeedling } from "react-icons/fa";
 import Basket from '../../assets/basket-full-vegetables.png'
 
 const Values = () => {
+
+  const LeftValues = Value.map(item=>{
+    return(
+      <div>
+        <div>
+          <span>{item.icon}</span>
+        </div>
+        <div>
+          <h3>{item.title}</h3>
+          <p>{item.para}</p>
+        </div>
+      </div>
+    )
+  } )
+
   return (
-    
     <section>
       <div className='max-w-[1400px] mx-auto px-10 py-20'>
         <Heading highlight="Our" heading="Value" />
 
         <div className='flex items-center justify-between gap-10'>
-          
+
           {/* Left side (Values) */}
           <div className='grid grid-cols-2 gap-8'>
             {Value.map((item) => (
