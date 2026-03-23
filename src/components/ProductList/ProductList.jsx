@@ -1,4 +1,13 @@
 import Butter from '../../assets/butter.png'
 import Strawberry from '../../assets/strawberry.png'
 import Eggs from '../../assets/eggs.png'
-import Cabbage from
+import Cabbage from '../../assets/cabbage.png'
+import Eggplant from '../../assets/eggplant.png'
+import Shrimp from '../../assets/shrimp.png'
+import Kiwi from '../../assets/kiwi.png'
+import Capsicum from '../../assets/capsicum.png'
+import Broccoli from '../../assets/broccoli.png'
+import Yogurt from '../../assets/yogurt.png'
+import Beef from '../../assets/beef.png'
+import ChickenBreast from '../../assets/chicken-breast.png'
+
