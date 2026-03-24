@@ -27,9 +27,145 @@ import Lettuce from '../../assets/lettuce.png'
 const products = [
     {
         id: 1,
+        name: 'Butter',
+        price: 3.0,
+        category: 'Dairy'
+        image: Butter
+    },
+    {
+        id: 2,
         name: 'Strawberry',
         price: 3.0,
         category: 'Fruits'
         image: Strawberry
     },
-]
+    {
+        id: 3,
+        name: 'Eggs',
+        price: 3.0,
+        category: 'Dairy'
+        image: Eggs
+    },
+    {
+        id: 4,
+        name: 'Cabbage',
+        price: 3.0,
+        category: 'Vegetables'
+        image: Cabbage
+    },
+    {
+        id: 5,
+        name: 'Eggplant',
+        price: 3.0,
+        category: 'Vegetables'
+        image: Eggplant
+    },
+    {
+        id: 6,
+        name: 'Shrimp',
+        price: 3.0,
+        category: 'Seafood'
+        image: Shrimp
+    },
+    {
+        id: 7,
+        name: 'Kiwi',
+        price: 3.0,
+        category: 'Fruits'
+        image: Kiwi
+    },
+    {
+        id: 8,
+        name: 'Capsicum',
+        price: 3.0,
+        category: 'Vegetables'
+        image: Capsicum
+    },
+    {
+        id: 9,
+        name: 'Broccoli',
+        price: 3.0,
+        category: 'Vegetables'
+        image: Broccoli
+    },
+    {
+        id: 10,
+        name: 'Yogurt',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+    {
+        id: 11,
+        name: 'Beef',
+        price: 3.0,
+        category: 'Meat'
+        image: Beef
+    },
+    {
+        id: 12,
+        name: 'ChickenBreast',
+        price: 3.0,
+        category: 'Meat'
+        image: ChickenBreast
+    },
+    {
+        id: 13,
+        name: 'Kale',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+    {
+        id: 14,
+        name: 'Yogurt',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+    {
+        id: 15,
+        name: 'Yogurt',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+    {
+        id: 16,
+        name: 'Yogurt',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+    {
+        id: 17,
+        name: 'Yogurt',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+    {
+        id: 18,
+        name: 'Yogurt',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+    {
+        id: 19,
+        name: 'Yogurt',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+    {
+        id: 20,
+        name: 'Yogurt',
+        price: 3.0,
+        category: 'Dairy'
+        image: Yogurt
+    },
+];
+
+export default products
+
