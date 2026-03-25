@@ -20,7 +20,7 @@ import Pineapple from '../../assets/pineapple.png'
 import Tofu from '../../assets/tofu.png'
 import Tilapia from '../../assets/tilapia.png'
 import SliceCheese from '../../assets/sliceCheese.png'
-import RicottaCheese from '../../assets/ricottaCheese.png'
+import RicottaCheese from '../../assets/ricotta-cheese.png'
 import Grapes from '../../assets/grapes.png'
 import Lettuce from '../../assets/lettuce.png'
 
@@ -113,57 +113,94 @@ const products = [
         id: 13,
         name: 'Kale',
         price: 3.0,
-        category: 'Dairy'
-        image: Yogurt
+        category: 'Vegetables'
+        image: Kale
     },
     {
         id: 14,
-        name: 'Yogurt',
+        name: 'Condensedmilk',
         price: 3.0,
         category: 'Dairy'
-        image: Yogurt
+        image: Condensedmilk
     },
     {
         id: 15,
-        name: 'Yogurt',
+        name: 'Cheese',
         price: 3.0,
         category: 'Dairy'
-        image: Yogurt
+        image: Cheese
     },
     {
         id: 16,
-        name: 'Yogurt',
+        name: 'Salmon',
         price: 3.0,
-        category: 'Dairy'
-        image: Yogurt
+        category: 'Seafood'
+        image: Salmon
     },
     {
         id: 17,
-        name: 'Yogurt',
+        name: 'Banana',
         price: 3.0,
-        category: 'Dairy'
-        image: Yogurt
+        category: 'Fruits'
+        image: Banana
     },
     {
         id: 18,
-        name: 'Yogurt',
+        name: 'Milk',
         price: 3.0,
         category: 'Dairy'
-        image: Yogurt
+        image: Milk
     },
     {
         id: 19,
-        name: 'Yogurt',
+        name: 'Pineapple',
         price: 3.0,
-        category: 'Dairy'
-        image: Yogurt
+        category: 'Fruits'
+        image: Pineapple
     },
     {
         id: 20,
-        name: 'Yogurt',
+        name: 'Tofu',
         price: 3.0,
         category: 'Dairy'
-        image: Yogurt
+        image: Tofu
+    },
+    {
+        id: 21,
+        name: 'Tilapia',
+        price: 3.0,
+        category: 'Seafood'
+        image: Tilapia
+    },
+    {
+        id: 22,
+        name: 'SliceCheese',
+        price: 3.0,
+        category: 'Dairy'
+        image: SliceCheese
+    },
+    {
+        id: 23,
+        name: 'ricotta-cheese',
+        price: 3.0,
+        category: 'Dairy'
+        image: ricotta-cheese
+    },
+
+    {
+        id: 24,
+        name: 'Grapes',
+        price: 3.0,
+        category: 'Fruits'
+        image: Grapes
+    },
+
+    {
+        id: 25,
+        name: 'Lettuce',
+        price: 3.0,
+        category: 'Vegetables'
+        image: Lettuce
     },
 ];
 
