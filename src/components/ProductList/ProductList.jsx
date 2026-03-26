@@ -104,7 +104,7 @@ const products = [
     },
     {
         id: 12,
-        name: 'ChickenBreast',
+        name: 'ChickenBreast'
         price: 3.0,
         category: 'Meat'
         image: ChickenBreast
@@ -118,7 +118,7 @@ const products = [
     },
     {
         id: 14,
-        name: 'Condensedmilk',
+        name: 'Condensedmilk'
         price: 3.0,
         category: 'Dairy'
         image: Condensedmilk
@@ -174,19 +174,18 @@ const products = [
     },
     {
         id: 22,
-        name: 'SliceCheese',
+        name: 'SliceCheese'
         price: 3.0,
         category: 'Dairy'
         image: SliceCheese
     },
     {
         id: 23,
-        name: 'ricotta-cheese',
+        name: 'RicottaCheese'
         price: 3.0,
         category: 'Dairy'
-        image: ricotta-cheese
+        image: RicottaCheese
     },
-
     {
         id: 24,
         name: 'Grapes',
@@ -201,8 +200,7 @@ const products = [
         price: 3.0,
         category: 'Vegetables'
         image: Lettuce
-    },
+    }
 ];
 
-export default products
-
+export default products;
