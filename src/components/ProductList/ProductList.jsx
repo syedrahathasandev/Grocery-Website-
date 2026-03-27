@@ -29,178 +29,179 @@ const products = [
         id: 1,
         name: 'Butter',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: Butter
     },
+
     {
         id: 2,
         name: 'Strawberry',
         price: 3.0,
-        category: 'Fruits'
+        category: 'Fruits',
         image: Strawberry
     },
     {
         id: 3,
+
         name: 'Eggs',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: Eggs
     },
     {
         id: 4,
         name: 'Cabbage',
         price: 3.0,
-        category: 'Vegetables'
+        category: 'Vegetables',
         image: Cabbage
     },
     {
         id: 5,
         name: 'Eggplant',
         price: 3.0,
-        category: 'Vegetables'
+        category: 'Vegetables',
         image: Eggplant
     },
     {
         id: 6,
         name: 'Shrimp',
         price: 3.0,
-        category: 'Seafood'
+        category: 'Seafood',
         image: Shrimp
     },
     {
         id: 7,
         name: 'Kiwi',
         price: 3.0,
-        category: 'Fruits'
+        category: 'Fruits',
         image: Kiwi
     },
     {
         id: 8,
         name: 'Capsicum',
         price: 3.0,
-        category: 'Vegetables'
+        category: 'Vegetables',
         image: Capsicum
     },
     {
         id: 9,
         name: 'Broccoli',
         price: 3.0,
-        category: 'Vegetables'
+        category: 'Vegetables',
         image: Broccoli
     },
     {
         id: 10,
         name: 'Yogurt',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: Yogurt
     },
     {
         id: 11,
         name: 'Beef',
         price: 3.0,
-        category: 'Meat'
+        category: 'Meat',
         image: Beef
     },
     {
         id: 12,
-        name: 'ChickenBreast'
+        name: 'Chicken Breast',
         price: 3.0,
-        category: 'Meat'
+        category: 'Meat',
         image: ChickenBreast
     },
     {
         id: 13,
         name: 'Kale',
         price: 3.0,
-        category: 'Vegetables'
+        category: 'Vegetables',
         image: Kale
     },
     {
         id: 14,
-        name: 'Condensedmilk'
+        name: 'Condensed Milk',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: Condensedmilk
     },
     {
         id: 15,
         name: 'Cheese',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: Cheese
     },
     {
         id: 16,
         name: 'Salmon',
         price: 3.0,
-        category: 'Seafood'
+        category: 'Seafood',
         image: Salmon
     },
     {
         id: 17,
         name: 'Banana',
         price: 3.0,
-        category: 'Fruits'
+        category: 'Fruits',
         image: Banana
     },
     {
         id: 18,
         name: 'Milk',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: Milk
     },
     {
         id: 19,
         name: 'Pineapple',
         price: 3.0,
-        category: 'Fruits'
+        category: 'Fruits',
         image: Pineapple
     },
     {
         id: 20,
         name: 'Tofu',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: Tofu
     },
     {
         id: 21,
         name: 'Tilapia',
         price: 3.0,
-        category: 'Seafood'
+        category: 'Seafood',
         image: Tilapia
     },
     {
         id: 22,
-        name: 'SliceCheese'
+        name: 'Slice Cheese',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: SliceCheese
     },
     {
         id: 23,
-        name: 'RicottaCheese'
+        name: 'Ricotta Cheese',
         price: 3.0,
-        category: 'Dairy'
+        category: 'Dairy',
         image: RicottaCheese
     },
     {
         id: 24,
         name: 'Grapes',
         price: 3.0,
-        category: 'Fruits'
+        category: 'Fruits',
         image: Grapes
     },
-
     {
         id: 25,
         name: 'Lettuce',
         price: 3.0,
-        category: 'Vegetables'
+        category: 'Vegetables',
         image: Lettuce
-    }
+    },
 ];
 
 export default products;
