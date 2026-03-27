@@ -12,7 +12,7 @@ const Products = () => {
 
     const renderCards = ProductList.map(product=>{
         return(
-            <Cards />
+            <Cards image={product.image}/>
         )
 
     })
