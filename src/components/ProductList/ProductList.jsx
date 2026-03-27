@@ -28,7 +28,7 @@ const products = [
     {
         id: 1,
         name: 'Butter',
-        price: 3.0,
+        price: 3.00,
         category: 'Dairy',
         image: Butter
     },
@@ -36,7 +36,7 @@ const products = [
     {
         id: 2,
         name: 'Strawberry',
-        price: 3.0,
+        price: 2.50,
         category: 'Fruits',
         image: Strawberry
     },
@@ -44,42 +44,42 @@ const products = [
         id: 3,
 
         name: 'Eggs',
-        price: 3.0,
+        price: 2.30,
         category: 'Dairy',
         image: Eggs
     },
     {
         id: 4,
         name: 'Cabbage',
-        price: 3.0,
+        price: 2.0,
         category: 'Vegetables',
         image: Cabbage
     },
     {
         id: 5,
         name: 'Eggplant',
-        price: 3.0,
+        price: 4.0,
         category: 'Vegetables',
         image: Eggplant
     },
     {
         id: 6,
         name: 'Shrimp',
-        price: 3.0,
+        price: 270.0,
         category: 'Seafood',
         image: Shrimp
     },
     {
         id: 7,
         name: 'Kiwi',
-        price: 3.0,
+        price: 4.20,
         category: 'Fruits',
         image: Kiwi
     },
     {
         id: 8,
         name: 'Capsicum',
-        price: 3.0,
+        price: 4.25,
         category: 'Vegetables',
         image: Capsicum
     },
@@ -93,70 +93,70 @@ const products = [
     {
         id: 10,
         name: 'Yogurt',
-        price: 3.0,
+        price: 5.0,
         category: 'Dairy',
         image: Yogurt
     },
     {
         id: 11,
         name: 'Beef',
-        price: 3.0,
+        price: 4.50,
         category: 'Meat',
         image: Beef
     },
     {
         id: 12,
         name: 'Chicken Breast',
-        price: 3.0,
+        price: 5.10,
         category: 'Meat',
         image: ChickenBreast
     },
     {
         id: 13,
         name: 'Kale',
-        price: 3.0,
+        price: 2.10,
         category: 'Vegetables',
         image: Kale
     },
     {
         id: 14,
         name: 'Condensed Milk',
-        price: 3.0,
+        price: 15.25,
         category: 'Dairy',
         image: Condensedmilk
     },
     {
         id: 15,
         name: 'Cheese',
-        price: 3.0,
+        price: 6.20,
         category: 'Dairy',
         image: Cheese
     },
     {
         id: 16,
         name: 'Salmon',
-        price: 3.0,
+        price: 18.30,
         category: 'Seafood',
         image: Salmon
     },
     {
         id: 17,
         name: 'Banana',
-        price: 3.0,
+        price: 2.20,
         category: 'Fruits',
         image: Banana
     },
     {
         id: 18,
         name: 'Milk',
-        price: 3.0,
+        price: 2.250,
         category: 'Dairy',
         image: Milk
     },
     {
         id: 19,
         name: 'Pineapple',
-        price: 3.0,
+        price: 4.2,
         category: 'Fruits',
         image: Pineapple
     },
@@ -170,35 +170,35 @@ const products = [
     {
         id: 21,
         name: 'Tilapia',
-        price: 3.0,
+        price: 3.30,
         category: 'Seafood',
         image: Tilapia
     },
     {
         id: 22,
         name: 'Slice Cheese',
-        price: 3.0,
+        price: 2.0,
         category: 'Dairy',
         image: SliceCheese
     },
     {
         id: 23,
         name: 'Ricotta Cheese',
-        price: 3.0,
+        price: 4.0,
         category: 'Dairy',
         image: RicottaCheese
     },
     {
         id: 24,
         name: 'Grapes',
-        price: 3.0,
+        price: 5.30,
         category: 'Fruits',
         image: Grapes
     },
     {
         id: 25,
         name: 'Lettuce',
-        price: 3.0,
+        price: 4.60,
         category: 'Vegetables',
         image: Lettuce
     },

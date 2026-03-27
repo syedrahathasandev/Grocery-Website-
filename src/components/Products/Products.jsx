@@ -12,7 +12,7 @@ const Products = () => {
 
     const renderCards = ProductList.map(product=>{
         return(
-            <Cards image={product.image}/>
+            <Cards image={product.image} name={product.name} price={product.price}/>
         )
 
     })
@@ -37,7 +37,7 @@ const Products = () => {
                 </div>
 
                     {/* Product Listing  */}
-                    <div>
+                    <div className='grid grid-cols-4 gap-9 mt-20'>
                         {renderCards}
                     </div>
             </div>

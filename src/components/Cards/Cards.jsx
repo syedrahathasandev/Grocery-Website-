@@ -1,29 +1,29 @@
 import React from 'react'
-import { FaHeart, FaPlug } from 'react-icons/fa'
+import { FaHeart, FaPlus } from 'react-icons/fa'
 import Button from '../Button/Button'
 
-const Cards = ({image}) => {
+const Cards = ({image, name, price}) => {
     return (
-        <div>
+        <div className='bg-zinc-100 p-5'>
             {/* card icons  */}
-            <div>
-                <span>
+            <div className='flex justify-between'>
+                <span className='text-3xl text-zinc-300'>
                     <FaHeart />
                 </span>
-                <button>
-                    <FaPlug />
+                <button className='bg-gradient-to-b from-orange-400 to-orange-500 text-white text-xl px-4 py-3 rounded-lg'>
+                    <FaPlus />
                 </button>
             </div>
 
             {/* card image  */}
-            <div>
-                <img src={image} />
+            <div className='w-full h-50 bg-red-300'>
+                {/* <img src={image} /> */}
             </div>
 
             {/* card content  */}
             <div>
-                <h3>Title</h3>
-                <p>3.00</p>
+                <h3>{name}</h3>
+                <p>{price}</p>
                 <Button content="Shop Now" />
             </div>
 
