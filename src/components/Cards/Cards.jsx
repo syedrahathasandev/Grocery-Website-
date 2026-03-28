@@ -17,6 +17,8 @@ const Cards = ({image, name, price}) => {
 
             {/* card image  */}
             <div className='w-full h-50 bg-red-300'>
+
+                
                 {/* <img src={image} /> */}
             </div>
 
