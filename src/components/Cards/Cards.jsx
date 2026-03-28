@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 
 const Cards = ({image, name, price}) => {
     return (
-        <div className='bg-zinc-100 p-5'>
+        <div className='bg-zinc-100 p-5 rounded-xl'>
             {/* card icons  */}
             <div className='flex justify-between'>
                 <span className='text-3xl text-zinc-300'>
@@ -18,14 +18,14 @@ const Cards = ({image, name, price}) => {
             {/* card image  */}
             <div className='w-full h-50 bg-red-300'>
 
-                
-                {/* <img src={image} /> */}
+
+                <img src={image} />
             </div>
 
             {/* card content  */}
-            <div>
-                <h3>{name}</h3>
-                <p>{price}</p>
+            <div className='text-center'>
+                <h3 className='text-2xl font-semibold'>{name}</h3>
+                <p className='text-2xl font-bold mt-4 mb-3'>{price}</p>
                 <Button content="Shop Now" />
             </div>
 
