@@ -134,7 +134,7 @@ const products = [
     },
     {
         id: 16,
-        name: 'Salmon',
+        name: 'Salmon Filet',
         price: 18.30,
         category: 'Seafood',
         image: Salmon
@@ -169,7 +169,7 @@ const products = [
     },
     {
         id: 21,
-        name: 'Tilapia',
+        name: 'Tilapia Fish',
         price: 3.30,
         category: 'Seafood',
         image: Tilapia

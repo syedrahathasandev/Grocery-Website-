@@ -16,16 +16,16 @@ const Cards = ({image, name, price}) => {
             </div>
 
             {/* card image  */}
-            <div className='w-full h-50 bg-red-300'>
+            <div className='w-full h-50'>
 
 
-                <img src={image} />
+                <img src={image} className='w-full h-full mx-auto obejct-contain' />
             </div>
 
             {/* card content  */}
             <div className='text-center'>
                 <h3 className='text-2xl font-semibold'>{name}</h3>
-                <p className='text-2xl font-bold mt-4 mb-3'>{price}</p>
+                <p className='text-2xl font-bold mt-4 mb-3'>${price.toFixed(2)}</p>
                 <Button content="Shop Now" />
             </div>
 
