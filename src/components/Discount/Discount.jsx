@@ -4,6 +4,8 @@ import FreshFruits from '../../assets/fresh-fruits.png'
 
 const Discount = () => {
   return (
+
+    
    <section className='bg-zinc-100 bg-no-repeat bg-right bg-center bg-contain' style={{backgroundImage:`url(${FreshFruits})`}}>
     <div className='md:bg-transparent bg-zinc-100 flex md:flex-row flex-col mx-w-[1400px] mx-auto px-10 py-10'>
         <span className='md:text-9xl text-6xl text-orange-500 font-bold transfrom md:-rotate-90 h-fit md:self-center'>20%</span>
