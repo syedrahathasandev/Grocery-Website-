@@ -14,3 +14,13 @@ const Process = () => {
 }
 
 export default Process
+
+
+const steps = [
+  
+  {
+    id :1,
+    number:
+  }
+
+]
