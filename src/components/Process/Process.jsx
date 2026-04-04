@@ -19,8 +19,8 @@ export default Process
 const steps = [
   
   {
-    id :1,
-    number:
+    id : 1,
+    number  :
   }
 
 ]
