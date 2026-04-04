@@ -20,7 +20,7 @@ const steps = [
   
   {
     id : 1,
-    number  :
+    number:
   }
 
 ]
