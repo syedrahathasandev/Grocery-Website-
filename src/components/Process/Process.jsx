@@ -1,5 +1,7 @@
 import React from 'react'
 import Heading from '../Heading/Heading'
+import { TbCircleNumber1Filled } from "react-icons/tb";
+import { PiPlant } from "react-icons/pi";
 
 const Process = () => {
   return (
@@ -20,7 +22,10 @@ const steps = [
   
   {
     id : 1,
-    number:
-  }
+    number: <TbCircleNumber1Filled />,
+    title: 'Sourcing',
+    para: 'It is a long established fact that a reader',
+    icon: <PiPlant />,
+  },
 
 ]
