@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from '../Heading/Heading'
-import { TbCircleNumber1Filled } from "react-icons/tb";
+import { TbCircleNumber1Filled , } from "react-icons/tb";
 import { PiPlant } from "react-icons/pi";
 
 const Process = () => {
