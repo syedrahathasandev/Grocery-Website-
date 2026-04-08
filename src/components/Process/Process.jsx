@@ -10,7 +10,16 @@ const Process = () => {
       const renderSteps = steps.map(item=>{
         return(
           <div>
-            
+            <span>{item.number}</span>
+            <div>
+            <div>
+              <span>{item.icon}</span>
+            </div>
+            <div>
+              <h4>{item.title}</h4>
+              <p>{item.para}</p>
+            </div>
+            </div>
           </div>
         )
       })
@@ -22,7 +31,9 @@ const Process = () => {
           <Heading highlight="Our" heading="Process" />
         </div>
 
-
+          <div>
+            {renderSteps}
+          </div>
 
       </div>
     </section>
