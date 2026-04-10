@@ -73,5 +73,12 @@ const steps = [
     para: 'It is a long established fact that a reader',
     icon: <BsTruck />,
   },
+  {
+    id: 4,
+    number: <TbCircleNumber4Filled />,
+    title: 'Logistics',
+    para: 'It is a long established fact that a reader',
+    icon: <BsTruck />,
+  },
 
 ]
