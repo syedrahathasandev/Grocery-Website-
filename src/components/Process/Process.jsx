@@ -11,13 +11,11 @@ const Process = () => {
         return(
           <div>
             <span className='flex justify-center items-center w-18 h-18 rounded-full text-8xl bg-zinc-800 text-white outline-[3px] outline-offset-7 outline-zinc-800 outline-dashed'>{item.number}</span>
+            <div className='flex items-center'>
+              <span className='flex bg-gradient-to-b from-orange-400 to-orange-500 text-white '>{item.icon}</span>
             <div>
-            <div>
-              <span>{item.icon}</span>
-            </div>
-            <div>
-              <h4>{item.title}</h4>
-              <p>{item.para}</p>
+              <h4 className='text-zinc-800 text-2xl font-bold'>{item.title}</h4>
+              <p className='text-zinc-600  mt-2'>{item.para}</p>
             </div>
             </div>
           </div>
@@ -31,7 +29,7 @@ const Process = () => {
           <Heading highlight="Our" heading="Process" />
         </div>
 
-          <div className='flex mt-20 '>
+          <div className='flex items-center justify-center mt-20 '>
             {renderSteps}
           </div>
 
