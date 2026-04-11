@@ -10,7 +10,7 @@ const Process = () => {
       const renderSteps = steps.map(item=>{
         return(
           <div>
-            <span>{item.number}</span>
+            <span className='flex justify-center items-center w-18 h-18 rounded-full text-8xl bg-zinc-800 text-white outline-[3px] outline-offset-7 outline-zinc-800 outline-dashed'>{item.number}</span>
             <div>
             <div>
               <span>{item.icon}</span>
@@ -31,7 +31,7 @@ const Process = () => {
           <Heading highlight="Our" heading="Process" />
         </div>
 
-          <div>
+          <div className='flex mt-20 '>
             {renderSteps}
           </div>
 
@@ -75,5 +75,5 @@ const steps = [
   },
 
 
-  
+
 ]
