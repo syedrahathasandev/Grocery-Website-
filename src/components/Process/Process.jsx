@@ -32,7 +32,6 @@ const Process = () => {
           <div className='flex items-center justify-center mt-20 '>
             {renderSteps}
           </div>
-
       </div>
     </section>
   )
