@@ -9,7 +9,7 @@ const Process = () => {
 
   const renderSteps = steps.map(item => {
     return (
-      <div className=''>
+      <div className=' flex-1 '>
         <span className='flex justify-center items-center w-18 h-18 rounded-full text-8xl bg-zinc-800 text-white outline-[3px] outline-offset-7 outline-zinc-800 outline-dashed'>{item.number}</span>
         <div className='flex items-center'>
           <span className='flex justify-center items-center text-3xl bg-gradient-to-b from-orange-400 to-orange-500 text-white w-15 h-15 rounded-full '>{item.icon}</span>
