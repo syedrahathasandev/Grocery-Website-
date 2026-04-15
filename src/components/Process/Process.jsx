@@ -11,7 +11,7 @@ const Process = () => {
     return (
       <div className={`flex-1 ${item.id % 2 === 0 ? '-mt-50' : ''}`}>
         <span className='flex justify-center items-center w-18 h-18 rounded-full text-8xl bg-zinc-800 text-white outline-[3px] outline-offset-7 outline-zinc-800 outline-dashed'>{item.number}</span>
-        <div className='flex items-center'>
+        <div className='flex items-center mt-10'>
           <span className='flex justify-center items-center text-3xl bg-gradient-to-b from-orange-400 to-orange-500 text-white w-15 h-15 rounded-full '>{item.icon}</span>
           <div>
             <h4 className='text-zinc-800 text-2xl font-bold'>{item.title}</h4>
@@ -22,7 +22,7 @@ const Process = () => {
     )
   })
 
-  
+
   return (
     <section>
       <div className='max-w-[1400px] mx-auto px-10 py-20'>
