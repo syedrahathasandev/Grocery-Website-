@@ -8,8 +8,9 @@ const Testimonials = () => {
         <Heading highlight="Customers" heading="Saying"/>
 
         <div className='py-5'>
-
         </div>
+        
+
         
     </div>
    </section>
