@@ -20,8 +20,12 @@ const Testimonials = () => {
 
         </div>
 
-        <div>
-          
+        <div className='bg-zinc-100 rounded-xl p-8'>
+            <div>
+              <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4'>
+                
+              </div>
+            </div>
         </div>
 
       </div>
