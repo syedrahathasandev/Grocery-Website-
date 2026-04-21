@@ -24,6 +24,7 @@ const Testimonials = () => {
             <div>
               <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4'>
                 
+                
               </div>
             </div>
         </div>
