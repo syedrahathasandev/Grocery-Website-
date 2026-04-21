@@ -10,23 +10,24 @@ const Testimonials = () => {
 
         <div className='flex justify-end gap-x-3  py-5'>
 
-         <button className='text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-ornage-400 hover:to-orange-500 hover:text-white cursor-pointer'>
-             <IoIosArrowBack />
+          <button className='text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-ornage-400 hover:to-orange-500 hover:text-white cursor-pointer'>
+            <IoIosArrowBack />
           </button>
 
-          <button className='text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-ornage-400 hover:to-orange-500 hover:text-white cursor-pointer'>
-             <IoIosArrowForward />
+          <button className='text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-orange-400 hover:to-orange-500 hover:text-white cursor-pointer'>
+            <IoIosArrowForward />
           </button>
 
         </div>
 
         <div className='bg-zinc-100 rounded-xl p-8'>
-            <div>
-              <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4'>
-                
-                
+          <div className='flex gap- items-center'>
+            <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4'>
+              <div>
+                <h5 className='text-xl font-bold'>Name</h5>
               </div>
             </div>
+          </div>
         </div>
 
       </div>
