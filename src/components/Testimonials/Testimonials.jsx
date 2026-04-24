@@ -21,17 +21,17 @@ const Testimonials = () => {
         </div>
 
         <div className='bg-zinc-100 rounded-xl p-8'>
-          <div className='flex gap- items-center'>
-            <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4'>
-              <div>
-                <h5 className='text-xl font-bold'>Name</h5>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div className='flex items-center gap-4'>
+    
+    {/* Circle */}
+    <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
+    </div>
 
+    {/* Name */}
+    <h5 className='text-xl font-bold'>Name</h5>
 
-
+  </div>
+</div>
       </div>
     </section>
   )
