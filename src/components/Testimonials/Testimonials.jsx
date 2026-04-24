@@ -20,7 +20,7 @@ const Testimonials = () => {
 
         </div>
 
-        <div className='bg-zinc-100 rounded-xl p-8'>
+        {/* <div className='bg-zinc-100 rounded-xl p-8'>
           <div className='flex items-center gap-5'>
 
             <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
@@ -30,14 +30,53 @@ const Testimonials = () => {
             <p className='text-zinc-600'>Profession</p>
             <span>Stars</span>
           </div>
-          
+
            <div className='mt-10'>
           <p className='text-zinc-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et voluptatem ipsum quas sit corporis neque reiciendis quasi magnam iure.</p>
         </div>
-        </div>
+        </div> */}
+
       </div>
     </section>
   )
 }
 
 export default Testimonials
+
+const review = [
+  {
+    id : 1,
+    name : 'Emily Johnson';
+    Profession : Food Blogger',
+    rating : 3,
+    para :'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast. I love the user-friendly interface and variety of organic options!'
+  },
+  {
+    id : 2,
+    name : '';
+    Profession : '',
+    rating : 3,
+    para :'',
+  },
+  {
+    id : 3,
+    name : '';
+    Profession : '',
+    rating : 3,
+    para :''
+  },
+  {
+    id : 4,
+    name : '';
+    Profession : '',
+    rating : 3,
+    para :''
+  },
+  {
+    id : 5,
+    name : '';
+    Profession : '',
+    rating : 3,
+    para :''
+  },
+]
