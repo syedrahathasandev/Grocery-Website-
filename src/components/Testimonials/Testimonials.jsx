@@ -21,17 +21,20 @@ const Testimonials = () => {
         </div>
 
         <div className='bg-zinc-100 rounded-xl p-8'>
-  <div className='flex items-center gap-4'>
-    
-    {/* Circle */}
-    <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
-    </div>
+          <div className='flex items-center gap-5'>
 
-    {/* Name */}
-    <h5 className='text-xl font-bold'>Name</h5>
+            <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
+            </div>
 
-  </div>
-</div>
+            <h5 className='text-xl font-bold'>Name</h5>
+            <p className='text-zinc-600'>Profession</p>
+            <span>Stars</span>
+          </div>
+          
+           <div className='mt-10'>
+          <p className='text-zinc-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et voluptatem ipsum quas sit corporis neque reiciendis quasi magnam iure.</p>
+        </div>
+        </div>
       </div>
     </section>
   )
