@@ -30,8 +30,6 @@ const Testimonials = () => {
           </div>
         </div>
 
-
-
       </div>
     </section>
   )
