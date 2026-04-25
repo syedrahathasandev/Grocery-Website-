@@ -79,11 +79,5 @@ const review = [
     rating : 3,
     para :''
   },
-  {
-    id : 6,
-    name : '';
-    Profession : '',
-    rating : 3,
-    para :''
-  },
+  
 ]
