@@ -80,4 +80,12 @@ const review = [
     para :''
   },
   
+  {
+    id : 6,
+    name : '';
+    Profession : '',
+    rating : 4,
+    para :''
+  },
+  
 ]
