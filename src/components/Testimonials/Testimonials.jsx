@@ -53,10 +53,10 @@ const review = [
   },
   {
     id : 2,
-    name : '';
-    Profession : '',
+    name : 'David Smith';
+    Profession : 'Chef',
     rating : 3,
-    para :'',
+    para :'As a chef, qulity ingredients are everything. FreshBasket consistenly delivers the best vegetables, herbs, and pantry staples, Highly recommended!',
   },
   {
     id : 3,
