@@ -44,41 +44,41 @@ const Testimonials = () => {
 export default Testimonials
 
 const review = [
-  // {
-  //   id: 1,
-  //   name: 'Emily Johnson';
-  //   Profession: Food Blogger',
-  //   rating : 3,
-  //   para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast. I love the user-friendly interface and variety of organic options!',
-  // },
-  // {
-  //   id: 2,
-  //   name: 'David Smith';
-  //   Profession: 'Chef',
-  //   rating: 3,
-  //   para: 'As a chef, qulity ingredients are everything. FreshBasket consistenly delivers the best vegetables, herbs, and pantry staples, Highly recommended!',
-  // },
-  // {
-  //   id: 3,
-  //   name: 'Alya Zahra';
-  //   Profession: 'Model',
-  //   rating: 3,
-  //   para: 'Shopping online with FreshBasket has saved me so much time. Itrust them for my familys weekly groceries-always fresh, affordable,and reliable',
-  // },
-  // {
-  //   id: 4,
-  //   name: 'Carlos Mendes';
-  //   Profession: 'Fitness Cocach',
-  //   rating: 3,
-  //   para: 'I appreciate the selection of healthy foods and clean-label products. FreshBasket has been a great partner in my wellness journey!',
-  // },
-  // {
-  //   id: 5,
-  //   name: 'Natch Phongchal';
-  //   Profession: 'Nutritionist',
-  //   rating: 3,
-  //   para: 'FreshBasket offers high-qulity groceries at reasonable prices. Their Organic section is impressive, and their customer service is top-notch.',
-  // },
+  {
+    id: 1,
+    name: 'Emily Johnson';
+    Profession: Food Blogger',
+    rating : 3,
+    para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast. I love the user-friendly interface and variety of organic options!',
+  },
+  {
+    id: 2,
+    name: 'David Smith';
+    Profession: 'Chef',
+    rating: 3,
+    para: 'As a chef, qulity ingredients are everything. FreshBasket consistenly delivers the best vegetables, herbs, and pantry staples, Highly recommended!',
+  },
+  {
+    id: 3,
+    name: 'Alya Zahra';
+    Profession: 'Model',
+    rating: 3,
+    para: 'Shopping online with FreshBasket has saved me so much time. Itrust them for my familys weekly groceries-always fresh, affordable,and reliable',
+  },
+  {
+    id: 4,
+    name: 'Carlos Mendes';
+    Profession: 'Fitness Cocach',
+    rating: 3,
+    para: 'I appreciate the selection of healthy foods and clean-label products. FreshBasket has been a great partner in my wellness journey!',
+  },
+  {
+    id: 5,
+    name: 'Natch Phongchal';
+    Profession: 'Nutritionist',
+    rating: 3,
+    para: 'FreshBasket offers high-qulity groceries at reasonable prices. Their Organic section is impressive, and their customer service is top-notch.',
+  },
 
 
 ]
