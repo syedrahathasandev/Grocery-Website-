@@ -72,13 +72,13 @@ const review = [
     rating: 3,
     para: 'I appreciate the selection of healthy foods and clean-label products. FreshBasket has been a great partner in my wellness journey!',
   },
-  // {
-  //   id: 5,
-  //   name: 'Natch Phongchal';
-  //   Profession: 'Nutritionist',
-  //   rating: 3,
-  //   para: 'FreshBasket offers high-qulity groceries at reasonable prices. Their Organic section is impressive, and their customer service is top-notch.',
-  // },
+  {
+    id: 5,
+    name: 'Natch Phongchal';
+    Profession: 'Nutritionist',
+    rating: 3,
+    para: 'FreshBasket offers high-qulity groceries at reasonable prices. Their Organic section is impressive, and their customer service is top-notch.',
+  },
 
 
 ]
