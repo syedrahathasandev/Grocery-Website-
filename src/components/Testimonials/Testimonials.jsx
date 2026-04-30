@@ -1,8 +1,16 @@
 import React from 'react'
 import Heading from '../Heading/Heading'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
+import Customer1 from '../../assets/customer1.jpg'
+import Customer2 from '../../assets/customer2.jpg'
+import Customer3 from '../../assets/customer3.jpg'
+import Customer4 from '../../assets/customer4.jpg'
+import Customer5 from '../../assets/customer5.jpg'
 
 const Testimonials = () => {
+
+    const
+
   return (
     <section>
       <div className='max-w-[1400px] px-10 mx-auto py-20'>
@@ -50,6 +58,7 @@ const review = [
     Profession: Food Blogger',
     rating : 3,
     para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast. I love the user-friendly interface and variety of organic options!',
+    image : Customer1,
   },
   {
     id: 2,
@@ -57,13 +66,16 @@ const review = [
     Profession: 'Chef',
     rating: 3,
     para: 'As a chef, qulity ingredients are everything. FreshBasket consistenly delivers the best vegetables, herbs, and pantry staples, Highly recommended!',
+    image : Customer2,
   },
+
   {
     id: 3,
     name: 'Alya Zahra';
     Profession: 'Model',
     rating: 3,
     para: 'Shopping online with FreshBasket has saved me so much time. Itrust them for my familys weekly groceries-always fresh, affordable,and reliable',
+    image : Customer3,
   },
   {
     id: 4,
@@ -71,6 +83,7 @@ const review = [
     Profession: 'Fitness Cocach',
     rating: 3,
     para: 'I appreciate the selection of healthy foods and clean-label products. FreshBasket has been a great partner in my wellness journey!',
+    image : Customer4,
   },
   {
     id: 5,
@@ -78,6 +91,7 @@ const review = [
     Profession: 'Nutritionist',
     rating: 3,
     para: 'FreshBasket offers high-qulity groceries at reasonable prices. Their Organic section is impressive, and their customer service is top-notch.',
+    image : Customer5,
   },
 
 ]
