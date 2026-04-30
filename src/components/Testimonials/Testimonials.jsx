@@ -80,7 +80,4 @@ const review = [
     para: 'FreshBasket offers high-qulity groceries at reasonable prices. Their Organic section is impressive, and their customer service is top-notch.',
   },
 
-
-
-  
 ]
