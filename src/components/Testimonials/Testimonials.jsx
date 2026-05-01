@@ -56,9 +56,9 @@ const review = [
     id: 1,
     name: 'Emily Johnson';
     Profession: Food Blogger',
-    rating : 3,
+    rating: 3,
     para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast. I love the user-friendly interface and variety of organic options!',
-    image : Customer1,
+    image: Customer1,
   },
   {
     id: 2,
@@ -93,5 +93,4 @@ const review = [
     para: 'FreshBasket offers high-qulity groceries at reasonable prices. Their Organic section is impressive, and their customer service is top-notch.',
     image : Customer5,
   },
-
 ]
