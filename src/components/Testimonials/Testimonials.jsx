@@ -1,4 +1,6 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 import Heading from '../Heading/Heading'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import Customer1 from '../../assets/customer1.jpg'
@@ -9,7 +11,7 @@ import Customer5 from '../../assets/customer5.jpg'
 
 const Testimonials = () => {
 
-    const = [{}]
+
 
   return (
     <section>
