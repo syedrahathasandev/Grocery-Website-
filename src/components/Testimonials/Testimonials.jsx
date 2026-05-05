@@ -69,43 +69,42 @@ export default Testimonials
 const review = [
   {
     id: 1,
-    name: 'Emily Johnson';
-    Profession: Food Blogger',
+    name: 'Emily Johnson',
+    Profession: 'Food Blogger',
     rating: 3,
-    para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast. I love the user-friendly interface and variety of organic options!',
+    para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast.',
     image: Customer1,
   },
   {
     id: 2,
-    name: 'David Smith';
+    name: 'David Smith',
     Profession: 'Chef',
     rating: 3,
-    para: 'As a chef, qulity ingredients are everything. FreshBasket consistenly delivers the best vegetables, herbs, and pantry staples, Highly recommended!',
-    image : Customer2,
+    para: 'As a chef, quality ingredients are everything. FreshBasket consistently delivers the best products.',
+    image: Customer2,
   },
-
   {
     id: 3,
-    name: 'Alya Zahra';
+    name: 'Alya Zahra',
     Profession: 'Model',
     rating: 3,
-    para: 'Shopping online with FreshBasket has saved me so much time. Itrust them for my familys weekly groceries-always fresh, affordable,and reliable',
-    image : Customer3,
+    para: 'Shopping online has saved me so much time. Always fresh and reliable.',
+    image: Customer3,
   },
   {
     id: 4,
-    name: 'Carlos Mendes';
-    Profession: 'Fitness Cocach',
+    name: 'Carlos Mendes',
+    Profession: 'Fitness Coach',
     rating: 3,
-    para: 'I appreciate the selection of healthy foods and clean-label products. FreshBasket has been a great partner in my wellness journey!',
-    image : Customer4,
+    para: 'I appreciate the selection of healthy foods and clean-label products.',
+    image: Customer4,
   },
   {
     id: 5,
-    name: 'Natch Phongchal';
+    name: 'Natch Phongchal',
     Profession: 'Nutritionist',
     rating: 3,
-    para: 'FreshBasket offers high-qulity groceries at reasonable prices. Their Organic section is impressive, and their customer service is top-notch.',
-    image : Customer5,
+    para: 'FreshBasket offers high-quality groceries at reasonable prices.',
+    image: Customer5,
   },
 ]
