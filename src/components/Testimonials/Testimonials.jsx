@@ -102,12 +102,12 @@ const review = [
     para: 'I appreciate the selection of healthy foods and clean-label products.',
     image: Customer4,
   },
-//   {
-//     id: 5,
-//     name: 'Natch Phongchal',
-//     Profession: 'Nutritionist',
-//     rating: 3,
-//     para: 'FreshBasket offers high-quality groceries at reasonable prices.',
-//     image: Customer5,
-//   },
-// ]
+  {
+    id: 5,
+    name: 'Natch Phongchal',
+    Profession: 'Nutritionist',
+    rating: 3,
+    para: 'FreshBasket offers high-quality groceries at reasonable prices.',
+    image: Customer5,
+  },
+]
