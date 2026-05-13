@@ -33,7 +33,7 @@ const Testimonials = () => {
 
         </div>
 
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        {/* <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>Slide 1</SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
@@ -43,7 +43,7 @@ const Testimonials = () => {
         <SwiperSlide>Slide 7</SwiperSlide>
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
+      </Swiper> */}
 
 
         <div className='bg-zinc-100 rounded-xl p-8'>
@@ -110,9 +110,17 @@ const review = [
     para: 'FreshBasket offers high-quality groceries at reasonable prices.',
     image: Customer5,
   },
-]
+
   {
     id: 6,
+    name: 'Natch Phongchal',
+    Profession: 'Nutritionist',
+    rating: 3,
+    para: 'FreshBasket offers high-quality groceries at reasonable prices.',
+    image: Customer5,
+  },
+  {
+    id: 7,
     name: 'Natch Phongchal',
     Profession: 'Nutritionist',
     rating: 3,
