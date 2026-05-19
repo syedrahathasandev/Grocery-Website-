@@ -110,13 +110,4 @@ const review = [
     para: 'FreshBasket offers high-quality groceries at reasonable prices.',
     image: Customer5,
   },
-  {
-    id: 6,
-    name: 'Natch Phongchal',
-    Profession: 'Nutritionist',
-    rating: 3,
-    para: 'FreshBasket offers high-quality groceries at reasonable prices.',
-    image: Customer5,
-  },
-
 ]
