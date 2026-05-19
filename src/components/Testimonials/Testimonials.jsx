@@ -33,20 +33,18 @@ const Testimonials = () => {
 
         </div>
 
-        {/* <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper> */}
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        {
+          review.map(item=>{
+            return(
+              
+            )
+          })
+        }
+      </Swiper>
 
 
-        <div className='bg-zinc-100 rounded-xl p-8'>
+        <SwiperSlide className='bg-zinc-100 rounded-xl p-8'>
           <div className='flex items-center gap-5'>
 
             <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
@@ -60,7 +58,7 @@ const Testimonials = () => {
            <div className='mt-10'>
           <p className='text-zinc-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et voluptatem ipsum quas sit corporis neque reiciendis quasi magnam iure.</p>
         </div>
-        </div>
+        </SwiperSlide>
 
       </div>
     </section>
