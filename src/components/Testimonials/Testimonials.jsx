@@ -44,7 +44,7 @@ const Testimonials = () => {
       </Swiper>
 
 
-        {/* <SwiperSlide className='bg-zinc-100 rounded-xl p-8'>
+        <SwiperSlide className='bg-zinc-100 rounded-xl p-8'>
           <div className='flex items-center gap-5'>
 
             <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
@@ -58,7 +58,7 @@ const Testimonials = () => {
            <div className='mt-10'>
           <p className='text-zinc-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et voluptatem ipsum quas sit corporis neque reiciendis quasi magnam iure.</p>
         </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
 
       </div>
     </section>
