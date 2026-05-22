@@ -34,17 +34,10 @@ const Testimonials = () => {
         </div>
 
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        {
-          review.map(item=>{
-            return(
-              
-            )
-          })
-        }
-      </Swiper>
-
-
-        <SwiperSlide className='bg-zinc-100 rounded-xl p-8'>
+          {
+            review.map(item => {
+              return (
+                <SwiperSlide className='bg-zinc-100 rounded-xl p-8'>
           <div className='flex items-center gap-5'>
 
             <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
@@ -55,11 +48,18 @@ const Testimonials = () => {
             <span>Stars</span>
           </div>
 
-           <div className='mt-10'>
-          <p className='text-zinc-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et voluptatem ipsum quas sit corporis neque reiciendis quasi magnam iure.</p>
-        </div>
+          <div className='mt-10'>
+            <p className='text-zinc-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et voluptatem ipsum quas sit corporis neque reiciendis quasi magnam iure.</p>
+          </div>
         </SwiperSlide>
 
+            )
+            })
+          }
+        </Swiper>
+
+
+      
       </div>
     </section>
   )
