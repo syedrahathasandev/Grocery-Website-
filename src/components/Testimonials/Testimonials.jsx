@@ -33,7 +33,7 @@ const Testimonials = () => {
 
         </div>
 
-        {/* <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         {
           review.map(item=>{
             return(
@@ -58,7 +58,7 @@ const Testimonials = () => {
            <div className='mt-10'>
           <p className='text-zinc-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et voluptatem ipsum quas sit corporis neque reiciendis quasi magnam iure.</p>
         </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
 
       </div>
     </section>
