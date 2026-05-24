@@ -8,7 +8,6 @@ import Customer2 from '../../assets/customer2.jpg'
 import Customer3 from '../../assets/customer3.jpg'
 import Customer4 from '../../assets/customer4.jpg'
 import Customer5 from '../../assets/customer5.jpg'
-
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -23,17 +22,21 @@ const Testimonials = () => {
 
         <div className='flex justify-end gap-x-3  py-5'>
 
-          <button className='text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-ornage-400 hover:to-orange-500 hover:text-white cursor-pointer'>
+          <button className='custom-prev text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-ornage-400 hover:to-orange-500 hover:text-white cursor-pointer'>
             <IoIosArrowBack />
           </button>
 
-          <button className='text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-orange-400 hover:to-orange-500 hover:text-white cursor-pointer'>
+          <button className='custom-next text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-orange-400 hover:to-orange-500 hover:text-white cursor-pointer'>
             <IoIosArrowForward />
           </button>
 
         </div>
 
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <Swiper navigation={(
+          nextEl: ".custom-next",
+          prevEl: ".custom-prev"
+        )}
+          modules={[Navigation]} className="mySwiper">
           {
             review.map(item => {
               return (
@@ -73,7 +76,7 @@ const review = [
     name: 'Emily Johnson',
     Profession: 'Food Blogger',
     rating: 3,
-    para:'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast.',
+    para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast.',
     image: Customer1,
   },
   {
