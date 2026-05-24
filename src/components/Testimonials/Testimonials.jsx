@@ -38,28 +38,28 @@ const Testimonials = () => {
             review.map(item => {
               return (
                 <SwiperSlide className='bg-zinc-100 rounded-xl p-8'>
-          <div className='flex items-center gap-5'>
+                  <div className='flex items-center gap-5'>
 
-            <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
-            </div>
+                    <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
+                    </div>
 
-            <h5 className='text-xl font-bold'>Name</h5>
-            <p className='text-zinc-600'>Profession</p>
-            <span>Stars</span>
-          </div>
+                    <h5 className='text-xl font-bold'>{item.name}</h5>
+                    <p className='text-zinc-600'>{item.Profession}</p>
+                    <span>{item.rating}</span>
+                  </div>
 
-          <div className='mt-10'>
-            <p className='text-zinc-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et voluptatem ipsum quas sit corporis neque reiciendis quasi magnam iure.</p>
-          </div>
-        </SwiperSlide>
+                  <div className='mt-10'>
+                    <p className='text-zinc-600'>{item.para}</p>
+                  </div>
+                </SwiperSlide>
 
-            )
+              )
             })
           }
         </Swiper>
 
 
-      
+
       </div>
     </section>
   )
@@ -73,7 +73,7 @@ const review = [
     name: 'Emily Johnson',
     Profession: 'Food Blogger',
     rating: 3,
-    para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast.',
+    para:'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast.',
     image: Customer1,
   },
   {
