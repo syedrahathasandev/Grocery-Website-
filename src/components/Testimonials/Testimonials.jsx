@@ -32,11 +32,14 @@ const Testimonials = () => {
 
         </div>
 
-        <Swiper navigation={(
-          nextEl: ".custom-next",
-          prevEl: ".custom-prev"
-        )}
-          modules={[Navigation]} className="mySwiper">
+        <Swiper
+          navigation={{
+            nextEl: ".custom-next",
+            prevEl: ".custom-prev",
+          }}
+          modules={[Navigation]}
+          className="mySwiper"
+        >
           {
             review.map(item => {
               return (
