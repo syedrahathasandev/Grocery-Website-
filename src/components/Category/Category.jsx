@@ -25,18 +25,18 @@ const Category = () => {
         </div>
       )
     })
-  return (
-    <section>
-      <div className='max-w-[1400px] mx-auto px-10 py-20'>
-        <Heading highlight="Shop" heading="by Category" />
+  // return (
+  //   <section>
+  //     <div className='max-w-[1400px] mx-auto px-10 py-20'>
+  //       <Heading highlight="Shop" heading="by Category" />
 
-        {/* Category Card  */}
-        <div className='flex flex-wrap gap-10 md:mt-15 '>
-          {renderCards}
-        </div>
-      </div>
-    </section>
-  )
+  //       {/* Category Card  */}
+  //       <div className='flex flex-wrap gap-10 md:mt-15 '>
+  //         {renderCards}
+  //       </div>
+  //     </div>
+  //   </section>
+  // )
 }
 
 export default Category
