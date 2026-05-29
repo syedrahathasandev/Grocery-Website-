@@ -71,45 +71,45 @@ const Testimonials = () => {
 
 export default Testimonials
 
-const review = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    Profession: 'Food Blogger',
-    rating: 3,
-    para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast.',
-    image: Customer1,
-  },
-  {
-    id: 2,
-    name: 'David Smith',
-    Profession: 'Chef',
-    rating: 3,
-    para: 'As a chef, quality ingredients are everything. FreshBasket consistently delivers the best products.',
-    image: Customer2,
-  },
-  {
-    id: 3,
-    name: 'Alya Zahra',
-    Profession: 'Model',
-    rating: 3,
-    para: 'Shopping online has saved me so much time. Always fresh and reliable.',
-    image: Customer3,
-  },
-  {
-    id: 4,
-    name: 'Carlos Mendes',
-    Profession: 'Fitness Coach',
-    rating: 3,
-    para: 'I appreciate the selection of healthy foods and clean-label products.',
-    image: Customer4,
-  },
-  {
-    id: 5,
-    name: 'Natch Phongchal',
-    Profession: 'Nutritionist',
-    rating: 3,
-    para: 'FreshBasket offers high-quality groceries at reasonable prices.',
-    image: Customer5,
-  },
+// const review = [
+//   {
+//     id: 1,
+//     name: 'Emily Johnson',
+//     Profession: 'Food Blogger',
+//     rating: 3,
+//     para: 'FreshBasket is my go-to store for all grocery needs. Their produce is always fresh, and the delivery is super fast.',
+//     image: Customer1,
+//   },
+//   {
+//     id: 2,
+//     name: 'David Smith',
+//     Profession: 'Chef',
+//     rating: 3,
+//     para: 'As a chef, quality ingredients are everything. FreshBasket consistently delivers the best products.',
+//     image: Customer2,
+//   },
+//   {
+//     id: 3,
+//     name: 'Alya Zahra',
+//     Profession: 'Model',
+//     rating: 3,
+//     para: 'Shopping online has saved me so much time. Always fresh and reliable.',
+//     image: Customer3,
+//   },
+//   {
+//     id: 4,
+//     name: 'Carlos Mendes',
+//     Profession: 'Fitness Coach',
+//     rating: 3,
+//     para: 'I appreciate the selection of healthy foods and clean-label products.',
+//     image: Customer4,
+//   },
+//   {
+//     id: 5,
+//     name: 'Natch Phongchal',
+//     Profession: 'Nutritionist',
+//     rating: 3,
+//     para: 'FreshBasket offers high-quality groceries at reasonable prices.',
+//     image: Customer5,
+//   },
 ]
