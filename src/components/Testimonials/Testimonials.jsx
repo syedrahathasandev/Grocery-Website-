@@ -37,6 +37,10 @@ const Testimonials = () => {
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
+          loop ={true}
+          breakpoints={{
+            
+          }}
           modules={[Navigation]}
           className="mySwiper"
         >
