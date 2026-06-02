@@ -69,10 +69,10 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+// export default Testimonials
 
-const review = [
-  {
+// const review = [
+//   {
     id: 1,
     name: 'Emily Johnson',
     Profession: 'Food Blogger',
