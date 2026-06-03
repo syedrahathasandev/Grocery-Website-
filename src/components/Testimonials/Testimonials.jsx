@@ -10,6 +10,7 @@ import Customer4 from '../../assets/customer4.jpg'
 import Customer5 from '../../assets/customer5.jpg'
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { FaStar } from 'react-icons/fa';
 
 const Testimonials = () => {
 
@@ -37,9 +38,11 @@ const Testimonials = () => {
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
-          loop ={true}
+          loop={true}
           breakpoints={{
-            
+            640: { slidesPerView: 1, spaceBetween: 20 },
+            768: { slidesPerView: 2, spaceBetween: 20 },
+            1024: { slidesPerView: 3, spaceBetween: 20 },
           }}
           modules={[Navigation]}
           className="mySwiper"
@@ -50,15 +53,22 @@ const Testimonials = () => {
                 <SwiperSlide className='bg-zinc-100 rounded-xl p-8'>
                   <div className='flex items-center gap-5'>
 
-                    <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center'>
+                    <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 flex items-center justify-center overflow-hidden'>
+                      <img src={item.image} className='w-full h-full' />
                     </div>
 
                     <h5 className='text-xl font-bold'>{item.name}</h5>
                     <p className='text-zinc-600'>{item.Profession}</p>
-                    <span>{item.rating}</span>
+                    <span className='flex text- text-yellow-400 gap-1'>
+                      {Array.from({ length: item.rating }, (_, index) => (
+                        <FaStar />
+                      ))}
+
+                    </span>
+
                   </div>
 
-                  <div className='mt-10'>
+                  <div className='mt-10 min-h-[15vh]'>
                     <p className='text-zinc-600'>{item.para}</p>
                   </div>
                 </SwiperSlide>
