@@ -21,7 +21,7 @@ const Testimonials = () => {
       <div className='max-w-[1400px] px-10 mx-auto py-20'>
         <Heading highlight="Customers" heading="Saying" />
 
-        {/* <div className='flex justify-end mt-5 gap-x-3  py-5'> */}
+        <div className='flex justify-end mt-5 gap-x-3  py-5'>
 
           <button className='custom-prev text-2xl text-zinc-800 rounded-lg w-11 h-11 flex justify-center items-center bg-zinc-100 hover:bg-gradient-to-b hover:from-ornage-400 hover:to-orange-500 hover:text-white cursor-pointer'>
             <IoIosArrowBack />
