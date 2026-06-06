@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './components/Home/Home'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Fruits from './components/Fruits/Fruits'
+import Dairy from './components/Dairy/Dairy'
 
 const App = () => {
 
@@ -13,6 +14,10 @@ const App = () => {
     {
       path: '/fruits',
       element: <Fruits />
+    },
+    {
+      path: '/dairy',
+      element: <Dairy />
     }
   ])
 
