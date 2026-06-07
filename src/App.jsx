@@ -3,6 +3,7 @@ import Home from './components/Home/Home'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Fruits from './components/Fruits/Fruits'
 import Dairy from './components/Dairy/Dairy'
+import SeaFood from './components/SeaFood/SeaFood'
 
 const App = () => {
 
@@ -18,6 +19,10 @@ const App = () => {
     {
       path: '/dairy',
       element: <Dairy />
+    },
+    {
+      path: '/seafood',
+      element: <SeaFood />
     }
   ])
 
