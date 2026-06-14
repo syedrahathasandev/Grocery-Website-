@@ -9,8 +9,7 @@ const Footer = () => {
                     <a href="#" className='text-3xl font-bold'>
                         Gr<span className='text-orange-500 uppercase'>o</span>cify
                     </a>
-
-
+                    
                     <p className='text-zinc-600 mt-6 max-w-[350px]'>
                         Bred for a high content of beneficial substances. Our products are all fresh and healthy.
                     </p>
