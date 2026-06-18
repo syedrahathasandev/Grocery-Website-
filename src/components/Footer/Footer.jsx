@@ -3,12 +3,12 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Footer = () => {
     return (
-        // <footer className='bg-zinc-100 py-20'>
-        //     <div className='flex flex-wrap gap-y-12 max-w-[1400px] mx-auto px-10'>
-        //         <div className='flex-1 basis-[300px]'>
-        //             <a href="#" className='text-3xl font-bold'>
-        //                 Gr<span className='text-orange-500 uppercase'>o</span>cify
-        //             </a>
+        <footer className='bg-zinc-100 py-20'>
+            <div className='flex flex-wrap gap-y-12 max-w-[1400px] mx-auto px-10'>
+                <div className='flex-1 basis-[300px]'>
+                    <a href="#" className='text-3xl font-bold'>
+                        Gr<span className='text-orange-500 uppercase'>o</span>cify
+                    </a>
                     
                     <p className='text-zinc-600 mt-6 max-w-[350px]'>
                         Bred for a high content of beneficial substances. Our products are all fresh and healthy.
