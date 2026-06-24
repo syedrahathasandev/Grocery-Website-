@@ -49,10 +49,10 @@ const Footer = () => {
                 <div className='flex-1'>
                     <h5 className='text-zinc-800 text-2xl font-bold'>Stay Connected</h5>
 
-                    <p className='mt-6 text-zinc-600'>
+                    {/* <p className='mt-6 text-zinc-600'>
                         Questions or Feedback? <br />
                         We'd love to hear from you.
-                    </p>
+                    </p> */}
 
                     <div className='flex bg-white p-1 rounded-lg mt-6'>
                         <input type="email" name="email" id="email" autoComplete='off' placeholder='Email Address' className='h-[5vh] pl-4 flex-1 focus:outline-none'/>
