@@ -1,9 +1,10 @@
 import React from 'react'
+import Banner from '../Banner/Banner'
 
 const SeaFood = () => {
   return (
     <div>
-      <h1>Hi I'm SeaFood</h1>
+     <Banner />
     </div>
   )
 }
